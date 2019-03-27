@@ -1,11 +1,19 @@
 {
-  "name": "spa-demo",
+  "name": "spa",
   "version": "1.0.0",
-  "description": "",
+  "description": "h5内置控件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "zouxiangyue",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouxiangyue/spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zouxiangyue/spa/issues"
+  },
+  "homepage": "https://github.com/zouxiangyue/spa#readme"
 }
