@@ -1,0 +1,28 @@
+*{
+  margin: 10px 0px;
+}
+
+details{
+  background:#ccc
+}
+#time,#btnTxt{
+  width:200px; 
+}
+#code{
+  width:200px;
+  height:200px
+}
+.code-label{
+  position:relative;
+  top:-200px
+}
+#add{
+  margin-left:250px
+}
+.btn{
+  height:50px;
+  width:100px;
+}
+div{
+  height:400px;
+}

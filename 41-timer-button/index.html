@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>按钮定时器</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">   
+</head>
+<body>
+<details> 
+  <summary>添加按钮</summary>
+     初始状态：
+     <input id="on" type="radio"/>
+     <label for="on">启用</label>
+     <input id="off" type="radio" checked/>
+     <label for="off">禁用</label>
+     <br/>
+     <label for="time">禁用时长：</label>
+     <input  id="time"type="number"min="1" max='100' step="1" value="6" />秒
+     <br/>
+     <label for="btnTxt">按钮文字：</label>
+     <input id="btnTxt" type="text" value="同意"/>
+     <br/>
+     <span class="code-label">事件代码：</span>
+       <textarea id="code">alert("你终于同意了")</textarea><br/>
+     <button id="add">添加</button>
+
+</details>
+     <div id="groupBtn"></div>
+  
+  <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="script/script.js"></script>                                                                                    
+</body>                                                                                                                        
+</html>
+
