@@ -9,9 +9,10 @@ $(function(){
       var $imgs=$("img");
       var $pwd=$("input")
       for(let j=0;j<$imgs.length;j++){
+        console.log($imgs[j],$pwd[j].type)
         $imgs[j].onmouseover=function(){
-          $pwd[j].type='text'
-          $imgs[j].src="./images/eye2.png"
+          $pwd[j].type="text";
+          $imgs[j].src="./images/eye2.png";
         };
         $imgs[j].onmouseout=function(){
           $pwd[j].type='password';
